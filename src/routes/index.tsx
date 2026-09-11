@@ -13,7 +13,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoAsset from "@/assets/logo-emblema.png.asset.json";
 import portraitAsset from "@/assets/luca.jpg.asset.json";
 import { CONTACT } from "@/lib/contact";
 
@@ -179,7 +179,7 @@ function Index() {
             <img
               src={logoAsset.url}
               alt="Logo Dr. Luca Postorino, osteopata e chinesiologo"
-              className="h-16 w-16 rounded-full object-cover md:h-20 md:w-20"
+              className="h-16 w-auto object-contain mix-blend-multiply md:h-20"
               width={80}
               height={80}
             />
@@ -521,7 +521,7 @@ function Index() {
               src={logoAsset.url}
               alt=""
               aria-hidden="true"
-              className="h-12 w-12 rounded-full object-cover"
+              className="h-12 w-auto object-contain mix-blend-multiply"
               width={48}
               height={48}
             />
