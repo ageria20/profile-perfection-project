@@ -7,7 +7,7 @@ import {
   Instagram,
   Mail,
   MapPin,
-  MapPin,
+
   Phone,
   Quote,
   Sparkles,
