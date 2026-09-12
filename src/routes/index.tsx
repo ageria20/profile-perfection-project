@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Osteopatia, chinesiologia e riabilitazione motoria a Reggio Calabria. Trattamenti personalizzati in studio e a domicilio con il Dr. Luca Postorino.",
+          "Osteopatia, chinesiologia e riabilitazione motoria a Reggio Calabria. Trattamenti manuali personalizzati con il Dr. Luca Postorino.",
       },
       {
         property: "og:title",
@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Trattamenti osteopatici e percorsi di riabilitazione motoria su misura, in studio e a domicilio.",
+          "Trattamenti osteopatici e percorsi di riabilitazione motoria su misura.",
       },
       { property: "og:url", content: "/" },
     ],
@@ -97,12 +97,12 @@ const SERVIZI = [
   {
     icon: Sparkles,
     title: "Percorso integrato",
-    text: "Osteopatia e movimento combinati in un unico percorso, in studio o a domicilio.",
+    text: "Osteopatia e movimento combinati in un unico percorso su misura.",
     points: [
       "Valutazione posturale completa",
       "Piano di trattamento personalizzato",
       "Massaggio decontratturante e svedese",
-      "Visite domiciliari su richiesta",
+      "Rieducazione posturale nel tempo",
     ],
   },
 ];
@@ -145,7 +145,7 @@ const ESPERIENZA = [
   },
   {
     anni: "dal 2022",
-    testo: "Attività in studio proprio, integrata con visite domiciliari.",
+    testo: "Attività professionale nel mio studio a Reggio Calabria.",
   },
 ];
 
@@ -223,7 +223,7 @@ function Index() {
         <section className="relative overflow-hidden bg-sand">
           <div className="container-page grid items-center gap-12 py-16 md:py-24 lg:grid-cols-[1.05fr_0.95fr]">
             <div>
-              <p className="eyebrow">Reggio Calabria · Studio e domicilio</p>
+              <p className="eyebrow">Reggio Calabria</p>
               <h1 className="mt-5 font-display text-4xl leading-[1.05] text-deep sm:text-5xl lg:text-6xl">
                 Rimetto in movimento
                 <br />
@@ -251,20 +251,18 @@ function Index() {
                   Scopri i trattamenti
                 </a>
               </div>
-              <dl className="mt-12 grid max-w-lg grid-cols-3 gap-6 border-t border-border pt-8">
-                <div>
-                  <dt className="text-xs uppercase tracking-widest text-muted-foreground">Dal</dt>
-                  <dd className="font-display text-2xl text-deep">2020</dd>
-                </div>
+              <dl className="mt-12 grid max-w-lg grid-cols-2 gap-6 border-t border-border pt-8">
                 <div>
                   <dt className="text-xs uppercase tracking-widest text-muted-foreground">
                     Diploma
                   </dt>
-                  <dd className="font-display text-2xl text-deep">Osteopatia</dd>
+                  <dd className="font-display text-2xl text-deep">Osteopatia, 2024</dd>
                 </div>
                 <div>
-                  <dt className="text-xs uppercase tracking-widest text-muted-foreground">Anche</dt>
-                  <dd className="font-display text-2xl text-deep">a domicilio</dd>
+                  <dt className="text-xs uppercase tracking-widest text-muted-foreground">
+                    Laurea
+                  </dt>
+                  <dd className="font-display text-2xl text-deep">Scienze Motorie</dd>
                 </div>
               </dl>
             </div>
@@ -291,7 +289,7 @@ function Index() {
                 Un percorso costruito sul movimento delle persone
               </h2>
               <p className="mt-6 leading-relaxed text-muted-foreground">
-                Ho 30 anni e da cinque lavoro con chi ha dolore, rigidità o vuole tornare a
+                Ho 30 anni e lavoro con chi ha dolore, rigidità o vuole tornare a
                 muoversi bene. Sono partito dalle Scienze Motorie, sono passato dalla
                 riabilitazione in centro fisioterapico e sono arrivato all'osteopatia: oggi metto
                 insieme le due cose in un unico percorso.
@@ -435,7 +433,7 @@ function Index() {
               </h2>
               <p className="mt-5 max-w-md leading-relaxed text-muted-foreground">
                 Scrivimi su WhatsApp descrivendo cosa senti e da quanto tempo: ti rispondo io e
-                fissiamo insieme la prima valutazione, in studio o a domicilio.
+                fissiamo insieme la prima valutazione in studio.
               </p>
               <a
                 href={CONTACT.whatsapp}
