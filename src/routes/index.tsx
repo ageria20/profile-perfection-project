@@ -225,10 +225,12 @@ function Index() {
             <div>
               <p className="eyebrow">Reggio Calabria</p>
               <h1 className="mt-5 font-display text-4xl leading-[1.05] text-deep sm:text-5xl lg:text-6xl">
-                Rimetto in movimento
-                <br />
-                ciò che si è bloccato.
+                Luca Postorino
               </h1>
+              <p className="mt-4 text-sm uppercase tracking-[0.2em] text-muted-foreground">
+                Osteopata · Chinesiologo
+              </p>
+
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
                 Sono Luca Postorino, osteopata e chinesiologo. Lavoro con le mani e con il
                 movimento per ridurre il dolore, migliorare la postura e restituirti fiducia nel
