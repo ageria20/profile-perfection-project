@@ -429,7 +429,7 @@ function Index() {
             <div>
               <p className="eyebrow">Contatti</p>
               <h2 className="mt-4 font-display text-3xl text-deep sm:text-4xl">
-                Parliamo del tuo dolore
+                Contattami
               </h2>
               <p className="mt-5 max-w-md leading-relaxed text-muted-foreground">
                 Scrivimi una mail descrivendo cosa senti e da quanto tempo: ti rispondo io e
