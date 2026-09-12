@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 import logoAsset from "../assets/logo-drLP.jpeg";
-import portraitAsset from "../assets/logo-drLP.jpeg";
+import portraitAsset from "../assets/img_profiloSito.jpeg";
 import { CONTACT } from "@/lib/contact";
 
 export const Route = createFileRoute("/")({
