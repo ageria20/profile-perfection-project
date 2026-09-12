@@ -177,7 +177,7 @@ function Index() {
         <div className="container-page flex items-center justify-between gap-6 py-3">
           <a href="#top" className="flex items-center gap-3">
             <img
-              src={logoAsset.url}
+              src={logoAsset}
               alt="Logo Dr. Luca Postorino, osteopata e chinesiologo"
               className="h-16 w-auto object-contain mix-blend-multiply md:h-20"
               width={80}
@@ -270,7 +270,7 @@ function Index() {
             <div className="relative mx-auto w-full max-w-md">
               <div className="absolute -inset-4 rounded-[2.5rem] bg-accent/25" aria-hidden="true" />
               <img
-                src={portraitAsset.url}
+                src={portraitAsset}
                 alt="Dr. Luca Postorino, osteopata e chinesiologo, nel suo studio a Reggio Calabria"
                 className="relative w-full rounded-[2rem] object-cover shadow-lift"
                 width={1067}
