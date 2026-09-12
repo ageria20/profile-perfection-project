@@ -13,8 +13,8 @@ import {
   Sparkles,
 } from "lucide-react";
 
-import logoAsset from "@/assets/logo-drLP.jpeg";
-import portraitAsset from "src/assets/logo-drLP.jpeg";
+import logoAsset from "../assets/logo-drLP.jpeg";
+import portraitAsset from "../assets/logo-drLP.jpeg";
 import { CONTACT } from "@/lib/contact";
 
 export const Route = createFileRoute("/")({
