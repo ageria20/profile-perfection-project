@@ -7,7 +7,7 @@ import {
   Instagram,
   Mail,
   MapPin,
-  MessageCircle,
+
   Phone,
   Quote,
   Sparkles,
@@ -206,15 +206,14 @@ function Index() {
           </nav>
 
           <a
-            href={CONTACT.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={`mailto:${CONTACT.email}`}
             className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft transition-transform hover:-translate-y-0.5 md:px-5"
           >
-            <MessageCircle className="h-4 w-4" />
-            <span className="hidden sm:inline">Scrivimi su WhatsApp</span>
-            <span className="sm:hidden">WhatsApp</span>
+            <Mail className="h-4 w-4" />
+            <span className="hidden sm:inline">Scrivimi una mail</span>
+            <span className="sm:hidden">Email</span>
           </a>
+
         </div>
       </header>
 
@@ -238,14 +237,13 @@ function Index() {
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href={CONTACT.whatsapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${CONTACT.email}`}
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-soft transition-transform hover:-translate-y-0.5"
                 >
                   Prenota una valutazione
                   <ArrowRight className="h-4 w-4" />
                 </a>
+
                 <a
                   href="#servizi"
                   className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-card px-6 py-3.5 text-sm font-semibold text-deep transition-colors hover:bg-secondary"
@@ -434,18 +432,17 @@ function Index() {
                 Parliamo del tuo dolore
               </h2>
               <p className="mt-5 max-w-md leading-relaxed text-muted-foreground">
-                Scrivimi su WhatsApp descrivendo cosa senti e da quanto tempo: ti rispondo io e
+                Scrivimi una mail descrivendo cosa senti e da quanto tempo: ti rispondo io e
                 fissiamo insieme la prima valutazione in studio.
               </p>
               <a
-                href={CONTACT.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`mailto:${CONTACT.email}`}
                 className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-soft transition-transform hover:-translate-y-0.5"
               >
-                <MessageCircle className="h-4 w-4" />
-                Scrivimi su WhatsApp
+                <Mail className="h-4 w-4" />
+                Scrivimi una mail
               </a>
+
             </div>
 
             <ul className="grid gap-4">
